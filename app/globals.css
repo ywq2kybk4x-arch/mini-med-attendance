@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-ink-50 text-ink-900 font-body;
+}
+
+.bg-noise {
+  background-image: radial-gradient(rgba(26, 35, 44, 0.05) 1px, transparent 0);
+  background-size: 20px 20px;
+}
+
+.safe-area-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
+}
